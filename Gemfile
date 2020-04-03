@@ -33,6 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'faker'
+  gem 'pry'
   gem 'byebug'
   gem 'spring'
   gem 'rspec-rails','>= 3.5.2'
