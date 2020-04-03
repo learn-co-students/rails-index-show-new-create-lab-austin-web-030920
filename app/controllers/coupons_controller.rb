@@ -1,13 +1,15 @@
 class CouponsController < ApplicationController
   def index
+    @coupons = Coupon.all
   end
 
-  def create
+  def show
   end
 
   def new
   end
 
-  def show
+  def create
   end
+
 end
