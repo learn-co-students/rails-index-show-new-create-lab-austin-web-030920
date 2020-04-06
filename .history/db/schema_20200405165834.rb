@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20200405215635) do
 
-  create_table "coupons", force: :cascade do |t|
+  create_table "coupons_tables", force: :cascade do |t|
     t.string "coupon_code"
     t.string "store"
   end
