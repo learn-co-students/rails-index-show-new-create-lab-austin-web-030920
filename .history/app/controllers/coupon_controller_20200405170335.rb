@@ -1,0 +1,1 @@
+class CouponController < ApplicationController
